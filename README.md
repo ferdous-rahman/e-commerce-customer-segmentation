@@ -99,7 +99,7 @@ All other dependencies (`sqlite3`) are part of the Python standard library.
 ## Dataset
 
 - **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
-- **File:** `[online_retail_II_2010_2011.csv](https://drive.google.com/file/d/1AoWtGUSumBXfHTYjyB3mnVqmR-5SV2N0/view?usp=drive_link)`
+- **File:** [online_retail_II_2010_2011.csv](https://drive.google.com/file/d/1AoWtGUSumBXfHTYjyB3mnVqmR-5SV2N0/view?usp=drive_link)
 - **Encoding:** `latin-1`
 
 Download the dataset and place it in the project root before running the notebook.
