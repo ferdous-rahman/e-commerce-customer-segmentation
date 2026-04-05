@@ -2,7 +2,7 @@
 
 **Dataset:** Online Retail II — UCI Machine Learning Repository  
 **Tool:** Python, SQL, Machine Learning  
-**Period:** December 2010 – December 2011  
+**Period:** March 26 
 
 ---
 
