@@ -2,7 +2,6 @@
 
 **Dataset:** Online Retail II — UCI Machine Learning Repository  
 **Tool:** Python, SQL, Machine Learning  
-**Period:** March 26 
 
 ---
 
@@ -117,4 +116,4 @@ Download the dataset and place it in the project root before running the noteboo
 
 ## Author
 
-**YMd. Ferdous Rahman** — Data Science Portfolio Project, April 2026
+**Md. Ferdous Rahman** — Data Science Portfolio Project, April 2026
