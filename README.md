@@ -15,14 +15,29 @@ This project applies RFM (Recency, Frequency, Monetary) analysis combined with K
 ## Project Structure
 
 ```
-├── analysis.ipynb            # Main notebook (cleaning → RFM → clustering → viz)
-├── online_retail_II.csv      # Raw dataset (not included — see Dataset section)
-├── ecommerce.db              # SQLite database generated during analysis
-├── rfm_3d_scatter.html       # Interactive 3D RFM scatter plot
-├── rfm_revenue_pie.html      # Revenue share donut chart
-├── rfm_radar.html            # Segment RFM radar chart
-├── rfm_heatmap.html          # Cluster behaviour heatmap
-└── README.md
+rfm-segmentation/
+│
+├── data/
+│   ├── online_retail_II.csv       # raw dataset (download from UCI)
+│   └── ecommerce.db               # SQLite DB generated during analysis
+│
+├── notebooks/
+│   └── analysis.ipynb             # full pipeline: cleaning → RFM → clustering → viz
+│
+├── outputs/
+│   ├── rfm_3d_scatter.html        # interactive 3D scatter plot
+│   ├── rfm_revenue_pie.html       # revenue donut chart
+│   ├── rfm_radar.html             # segment radar chart
+│   └── rfm_heatmap.html           # RFM heatmap
+│
+├── report/
+│   ├── main.tex                   # LaTeX report
+│   ├── references.bib             # bibliography
+│   └── figures/                   # static plots (elbow, bar charts, etc.)
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
